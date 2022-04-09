@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    background-image: url('blackjack.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title {
+    padding: 10px;
+    color: goldenrod;
+}
+
+#want-to-play {
+    font-style: italic;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+#cards-el, #sum-el {
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+button {
+    font-size: 25px;
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
