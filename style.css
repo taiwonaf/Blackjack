@@ -1,51 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@400;600&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
-}
-body {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     color: white;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
 }
 
 .container {
-    width: 500px;
-    height: 500px;
-    margin: 50px auto;
-    text-align: center;
-    background-image: url('blackjack.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url("blackjack.jpg");
+    width: 300px;
+    border-radius: 10px;
+    -webkit-box-shadow: -4px 13px 30px 0px rgba(194,194,194,1);
+    -moz-box-shadow: -4px 13px 30px 0px rgba(194,194,194,1);
+    box-shadow: -4px 13px 30px 0px rgba(194,194,194,1);
+    padding: 20px;
 }
 
-.title {
-    padding: 10px;
+.container h1 {
     color: goldenrod;
+    font-weight: bold;
+    padding: 20px 0px;
+    font-size: 48px;
 }
 
-#want-to-play {
-    font-style: italic;
-    font-size: 30px;
-    padding-bottom: 15px;
-    font-weight: 600;
-}
-
-#cards-el, #sum-el {
-    padding-bottom: 15px;
-    font-weight: 500;
+.container p {
+    padding: 10px 0px;
 }
 
 button {
-    font-size: 25px;
     background-color: goldenrod;
-    color: #016f32;
-    font-weight: bold;
     border: none;
-    padding: 10px;
-    width: 300px;
+    padding: 10px 10px;
+    font-size: 24px;
     margin: 5px;
+    width: 100%;
+    font-weight: bold;
+    color: #477D1B;
+    transition: 0.3;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-container {
+    padding: 0px 10px;
+}
+
+#new {
+    display: none;
 }
